@@ -61,9 +61,9 @@ const getAllProducts = async (req, res) => {
 
   apiData = apiData.skip(skipObj).limit(limit);
 
-  const products = await apiData;
+  const productsData = await apiData;
 
-  const formattedData = data.map((product) => ({
+  const formattedData = productsData.map((product) => ({
     ...product._doc,
     price: new Intl.NumberFormat('en-IN', {
       style: 'currency',

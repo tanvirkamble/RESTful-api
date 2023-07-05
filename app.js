@@ -1,6 +1,6 @@
-require('dotenv').config();
 const express = require('express');
 const app = express();
+require('dotenv').config();
 
 const PORT = process.env.PORT || 5000;
 
@@ -8,10 +8,10 @@ const product_routes = require('./routes/products');
 const connectDB = require('./db/connect');
 
 app.get('/', (req, res) => {
-  res.send('i am live');
+  res.send('I am live');
 });
 
-//middleware or to set router
+// Middleware to set up router
 app.use('/api/products', product_routes);
 
 const start = async () => {
