@@ -61,6 +61,8 @@ const getAllProducts = async (req, res) => {
 
   apiData = apiData.skip(skipObj).limit(limit);
 
+  const totalCount = await Product.countDocuments(queryObject);
+
   const productsData = await apiData;
 
   const formattedData = productsData.map((product) => ({
@@ -71,7 +73,12 @@ const getAllProducts = async (req, res) => {
     }).format(product.price),
   }));
 
-  res.status(200).json(formattedData);
+  res.status(200).json({
+    total: totalCount,
+    page: page,
+    limit: limit,
+    data: formattedData,
+  });
 };
 
 const getAllProductsTest = async (req, res) => {
