@@ -81,7 +81,7 @@ const getAllProducts = async (req, res) => {
   });
 };
 
-const getAllProductsTesting = async (req, res) => {
+const getAllProductsTest = async (req, res) => {
   const { company, name, price, createdAt, rating, featured, sort, select } =
     req.query;
   const queryObject = {};
@@ -186,4 +186,4 @@ const getAllProductsTesting = async (req, res) => {
   res.status(200).json(formattedData);
 };
 
-module.exports = { getAllProducts, getAllProductsTesting };
+module.exports = { getAllProducts, getAllProductsTest };
