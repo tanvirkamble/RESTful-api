@@ -1,0 +1,143 @@
+[
+  {
+    "index": 0,
+    "name": "iphone",
+    "price": 50000,
+    "featured": true,
+    "company": "apple"
+  },
+  {
+    "index": 1,
+    "name": "iphone10",
+    "price": 150000,
+    "featured": true,
+    "company": "apple"
+  },
+  {
+    "index": 2,
+    "name": "watch",
+    "price": 20000,
+    "company": "apple"
+  },
+  {
+    "index": 3,
+    "name": "watch10",
+    "price": 30000,
+    "company": "apple"
+  },
+  {
+    "index": 4,
+    "name": "s20",
+    "price": 40000,
+    "featured": true,
+    "company": "samsung"
+  },
+  {
+    "index": 5,
+    "name": "dell gaming",
+    "price": 60000,
+    "featured": true,
+    "company": "dell"
+  },
+  {
+    "index": 6,
+    "name": "mi20",
+    "price": 25000,
+    "featured": true,
+    "company": "xiaomi"
+  },
+  {
+    "index": 7,
+    "name": "macbook pro",
+    "price": 150000,
+    "featured": true,
+    "company": "apple"
+  },
+  {
+    "index": 8,
+    "name": "galaxy note 20",
+    "price": 90000,
+    "featured": true,
+    "company": "samsung"
+  },
+  {
+    "index": 9,
+    "name": "hp laptop",
+    "price": 80000,
+    "company": "hp"
+  },
+  {
+    "index": 10,
+    "name": "oneplus 9",
+    "price": 100000,
+    "featured": true,
+    "company": "oneplus"
+  },
+  {
+    "index": 11,
+    "name": "lg monitor",
+    "price": 35000,
+    "company": "lg"
+  },
+  {
+    "index": 12,
+    "name": "playstation 5",
+    "price": 50000,
+    "featured": true,
+    "company": "sony"
+  },
+  {
+    "index": 13,
+    "name": "google pixel 6",
+    "price": 90000,
+    "featured": true,
+    "company": "google"
+  },
+  {
+    "index": 14,
+    "name": "lenovo thinkpad",
+    "price": 100000,
+    "company": "lenovo"
+  },
+  {
+    "index": 15,
+    "name": "xiaomi redmi note 10",
+    "price": 25000,
+    "featured": true,
+    "company": "xiaomi"
+  },
+  {
+    "index": 16,
+    "name": "surface laptop",
+    "price": 130000,
+    "featured": true,
+    "company": "microsoft"
+  },
+  {
+    "index": 17,
+    "name": "asus rog phone 5",
+    "price": 130000,
+    "featured": true,
+    "company": "asus"
+  },
+  {
+    "index": 18,
+    "name": "lg tv",
+    "price": 100000,
+    "company": "lg"
+  },
+  {
+    "index": 19,
+    "name": "lenovo yoga",
+    "price": 90000,
+    "featured": true,
+    "company": "lenovo"
+  },
+  {
+    "index": 20,
+    "name": "acer predator",
+    "price": 180000,
+    "featured": true,
+    "company": "acer"
+  }
+]
