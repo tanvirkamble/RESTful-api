@@ -36,9 +36,9 @@ You can filter the products by adding query parameters to the `/products` endpoi
 
 - **Filter by name**: Use the `name` query parameter to filter products by their name. For example, to get all products with the name "iPhone", you can make a GET request to `/products?name=iPhone`.
 
-- **Filter by category**: Use the `category` query parameter to filter products by their category. For example, to get all products in the "Electronics" category, you can make a GET request to `/products?category=Electronics`.
+- **Filter by company**: Use the `company` query parameter to filter products by their company. For example, to get all products from the company "Apple", you can make a GET request to `/products?company=Apple`.
 
-- **Filter by price**: Use the `price` query parameter to filter products by their price. For example, to get all products with a price less than $50, you can make a GET request to `/products?price_lte=50`.
+- **Filter by price**: Use the `price` query parameter to filter products by their price. For example, to get all products with a price less than $50, you can make a GET request to `/products?price=90000`.
 
 You can combine multiple filters together to narrow down the results further.
 
