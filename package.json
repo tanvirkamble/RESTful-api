@@ -1,18 +1,18 @@
 {
   "name": "tanvirapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample RESTful API project",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.3.1"
+    "mongoose": ">=14.20.1"
   }
 }
