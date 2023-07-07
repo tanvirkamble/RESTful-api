@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+  <h1> API Documentation
+  </h1>
+  <p> Welcome to the API documentation for the RESTful API. This API allows you to interact with a collection of
+    products
+    and provides various endpoints to retrieve and filter products based on different criteria.</p>
+
+  <h1> Base URL
+  </h1>
+  <p> The base URL for all API endpoints is <a href="https://restful-api-h7lh.onrender.com">this</a></p>
+  <p>to land on products <a href="https://restful-api-h7lh.onrender.com/api/products">click here</a></p>
+
+  <h1> Authentication
+  </h1>
+  <p> This API does not require authentication to access the endpoints. However, if you plan to make frequent or
+    privileged
+    requests, it is recommended to authenticate your requests using API keys or an authentication mechanism provided by
+    your application.
+  </p>
+
+  <h1> Endpoints
+  </h1>
+  <p>GET: /api/products</p>
+  <p> -Retrieves a list of all products.
+  </p>
+  <h3>Parameters:
+  </h3>
+  <p>- `name` (optional): Filters products by name. Example: `/api/products?name=iPhone`.</p>
+  <p>- `company` (optional): Filters products by company. Example: `/api/products?company=Apple`.</p>
+  <p>- `price` (optional): Filters products by price. Example: `/api/products?price=90000`.</p>
+  <h3> Example:
+  </h3>
+  Request:
+
+  <p>- GET: /api/products?name=iPhone&company=Apple&price=90000
+  </p>
+
+  Response:
+  <pre>```json:
+    {
+    "data": [
+    {
+    "id": "1",
+    "name": "iPhone 12",
+    "company": "Apple",
+    "price": 90000
+    },
+    {
+    "id": "2",
+    "name": "iPhone 11",
+    "company": "Apple",
+    "price": 80000
+    }
+    ]
+    }</pre>
+  </p>
+
+</body>
+
+</html>

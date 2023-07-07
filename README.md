@@ -42,6 +42,14 @@ You can filter the products by adding query parameters to the `/products` endpoi
 
 You can combine multiple filters together to narrow down the results further.
 
+## API Documentation
+
+For detailed documentation on how to use this API, please visit the [API documentation page](https://restful-api-h7lh.onrender.com/api-docs).
+
+## Live Demo
+
+To see a live demo of the API in action, visit the [API showcase page](https://restful-api-h7lh.onrender.com/api/products).
+
 ## Contributing
 
 If you'd like to contribute to this project, please follow these steps:
@@ -54,5 +62,3 @@ If you'd like to contribute to this project, please follow these steps:
 6. Submit a pull request to the main repository.
 
 Thank you for your interest in contributing to the RESTful API repository!
-
-You can now copy the entire code block and paste it as a README file in your repository.
