@@ -34,9 +34,9 @@ The following endpoints are available in this API:
 
 You can filter the products by adding query parameters to the `/products` endpoint URL. The available filters are as follows:
 
-- **Filter by name**: Use the `name` query parameter to filter products by their name. For example, to get all products with the name "iPhone", you can make a GET request to `/products?name=iPhone`.
+- **Filter by name**: Use the `name` query parameter to filter products by their name. For example, to get all products with the name "iPhone", you can make a GET request to `/products?name=iphone`.
 
-- **Filter by company**: Use the `company` query parameter to filter products by their company. For example, to get all products from the company "Apple", you can make a GET request to `/products?company=Apple`.
+- **Filter by company**: Use the `company` query parameter to filter products by their company. For example, to get all products from the company "Apple", you can make a GET request to `/products?company=apple`.
 
 - **Filter by price**: Use the `price` query parameter to filter products by their price. For example, to get all products with a price less than $50, you can make a GET request to `/products?price=90000`.
 
