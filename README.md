@@ -44,7 +44,7 @@ You can combine multiple filters together to narrow down the results further.
 
 ## API Documentation
 
-For detailed documentation on how to use this API, please visit the [API documentation page](https://restful-api-h7lh.onrender.com/api-docs).
+For detailed documentation on how to use this API, please visit the [API documentation page](https://restful-api-h7lh.onrender.com/api/doc).
 
 ## Live Demo
 
